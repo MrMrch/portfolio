@@ -323,3 +323,28 @@ if ((checkbox) && (checkbox2)) {
         document.getElementById("checkbox").checked = !checkbox.checked;
     });
 }
+// Lazy Loading for "details" sections
+document.addEventListener("DOMContentLoaded", function() {
+  const lazyLoadSections = document.querySelectorAll('div[data-lazyload="true"]');
+
+  const config = {
+    rootMargin: '0px 0px -200px 0px',
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver(function(entries, self) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Remove the "lazy-hidden" class to make the section visible
+        entry.target.classList.remove('lazy-hidden');
+        self.unobserve(entry.target);
+      }
+    });
+  }, config);
+
+  lazyLoadSections.forEach(section => {
+    // Initially set the section to be hidden
+    section.classList.add('lazy-hidden');
+    observer.observe(section);
+  });
+});
