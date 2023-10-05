@@ -40,6 +40,13 @@ Version: 1.0
 
 /*** Miscellanerous ***/
 
+.lazy-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+
 * {
 	box-sizing: border-box;
 }
