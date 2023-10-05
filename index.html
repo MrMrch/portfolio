@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<title>Marcello Pascale - Portfolio</title>
-<!-- Main CSS File -->
-<link href="css/style.css" rel="stylesheet" type="text/css"/>
-<!-- Main Color File -->
-<link href="css/skins/dark.css" rel="stylesheet" type="text/css"/>
-</head>
-<body class="dark">
-<!-- Loader Starts -->
-<div class="loader-wrapper">
-<div class="loader"></div>
-<div class="loader-section section-left"></div>
-<div class="loader-section section-right"></div>
-</div>
-<!-- Loader Ends -->
-<!-- Home Section Starts -->
-<div class="main-section home active">
-<!-- Background shape Starts -->
-<img alt="" src="img/shape3.png"/>
-<!-- Background shape Ends -->
-<!-- Main Home Content Starts -->
-<div class="home-content">
-<div>
-<span class="hello">Hello!</span>
-<h1>I am <span>March</span></h1>
-<p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Marcello Pascale - Portfolio</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Main Color File -->
+    <link rel="stylesheet" type="text/css" href="css/skins/dark.css" />
+  </head>
+  <body class="dark">
+    <!-- Loader Starts -->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- Loader Ends -->
+    <!-- Home Section Starts -->
+    <div class="main-section home active">
+      <!-- Background shape Starts -->
+      <img src="img/shape3.png" alt="" />
+      <!-- Background shape Ends -->
+      <!-- Main Home Content Starts -->
+      <div class="home-content">
+        <div>
+          <span class="hello">Hello!</span>
+          <h1>I am <span>March</span></h1>
+          <p>
             Product person, creator and dreamer bringing ideas into the world
             for the past 10 years.
           </p>
-</div>
-</div>
-<!-- Main Home Content Ends -->
-<!-- Call To Actions Starts -->
-<div class="call-to-actions">
-<!-- Open Portfolio Section Starts -->
-<button class="btn-primary" id="open-portfolio">
-<span class="letter-wrap">My Portfolio</span>
-</button>
-<!-- Open Portfolio Section Ends -->
-<!-- Open About Section Starts -->
+        </div>
+      </div>
+      <!-- Main Home Content Ends -->
+      <!-- Call To Actions Starts -->
+      <div class="call-to-actions">
+        <!-- Open Portfolio Section Starts -->
+        <button id="open-portfolio" class="btn-primary">
+          <span class="letter-wrap">My Portfolio</span>
+        </button>
+        <!-- Open Portfolio Section Ends -->
+        <!-- Open About Section Starts -->
+        
 <!--         <a href="#" id="open-about" class="btn-secondary">
           <div>
             <span> About Me </span>
@@ -54,16 +57,16 @@
           </div>
         </a>
         <!-- Open About Section Ends -->
-</div>
-<!-- Call To Actions Ends -->
-<!-- Contacts Starts -->
-<div class="contacts">
-<ul>
-<li>marcellopascale@gmail.com</li>
-<li>Madrid, Spain</li>
-</ul>
-<!-- Social Media Profiles Starts -->
-<!--      <div class="social">
+      </div>
+      <!-- Call To Actions Ends -->
+      <!-- Contacts Starts -->
+      <div class="contacts">
+        <ul>
+          <li>marcellopascale@gmail.com</li>
+          <li>Madrid, Spain</li>
+        </ul>
+        <!-- Social Media Profiles Starts -->
+   <!--      <div class="social">
           <ul>
             <li>
               <a href="#" target="_blank">
@@ -87,388 +90,479 @@
             </li>
           </ul>
         </div> -->
-<!-- Social Media Profiles Ends -->
-</div>
-<!-- Contacts Ends -->
-<!-- Freelance Availability Starts -->
-<div class="freelance">
-<span>Available for <span>Product Roles</span></span>
-</div>
-<!-- Freelance Availability Ends -->
-<!-- Copyright Starts -->
-<div class="leftbottom">
-<span>© 2023 </span>
-<a href="https://www.linkedin.com/in/marcellopascale/"> My LinkedIn </a>
-</div>
-<!-- Copyright Ends -->
-</div>
-<!-- Home Section Ends -->
-<!-- Portfolio Section Starts -->
-<div class="main-section portfolio-grid">
-<!-- Back Home Starts -->
-<div class="back-home" id="back-home">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Home Ends -->
-<!-- Portfolio Grid Starts -->
-<div class="grid-container">
-<!-- Portfolio Heading Starts -->
-<div class="heading">
-<h2>Portfolio</h2>
-<p>My story in products, advertising and coding challenges</p>
-</div>
-<!-- Portfolio Heading Ends -->
-<!-- Portfolio Items Starts -->
-<ul class="grid">
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/LT_icon_portfolio-min.jpg"/>
-<div class="title">
-<span>Lucid Totem</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/Jugger_Logo-min.jpg"/>
-<div class="title">
-<span>Jugger.gg</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/vapearena_logo-min.jpg"/>
-<div class="title">
-<span>VapeArena</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/memory-min.jpg"/>
-<div class="title">
-<span>Memory Game</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/tinder-min.jpg"/>
-<div class="title">
-<span>Tinder Bot</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/alien_logo-min.jpg"/>
-<div class="title">
-<span>Guess the Alien</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/marchGPT-min.jpg"/>
-<div class="title">
-<span>MarchGPT</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-<!-- Portfolio Single Item Starts -->
-<li class="item" onclick="openItem(this)">
-<img alt="" src="img/projects/PI&amp;C_logo-min.jpg"/>
-<div class="title">
-<span>PI&amp;C - Ad Agency</span>
-</div>
-</li>
-<!-- Portfolio Single Item Ends -->
-</ul>
-<!-- Portfolio Items Ends -->
-</div>
-<!-- Portfolio Grid Ends -->
-<!-- Freelance Availability Starts -->
-<div class="freelance">
-<span>Available for <span>freelance</span></span>
-</div>
-<!-- Freelance Availability Ends -->
-</div>
-<!-- Portfolio Section Ends -->
-<!-- Portfolio Items Details Starts -->
-<div class="portfolio-items">
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-1">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts LCID TOTEM -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<img alt="" src="img/projects/PIlucidtotemscreenshot-min.jpg"/>
-<div>
-<div>
-<h2>Lucid Totem</h2>
-<span>Smartwatch App</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Founder &amp; Product Lead </span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Figma, Notion, Product Management</span>
-</li>
-<li>
-<span>Description :</span>
-<span>Lucid Totem is an app designed to help smartwatch users
+        <!-- Social Media Profiles Ends -->
+      </div>
+      <!-- Contacts Ends -->
+      <!-- Freelance Availability Starts -->
+      <div class="freelance">
+        <span>Available for <span>Product Roles</span></span>
+      </div>
+      <!-- Freelance Availability Ends -->
+      <!-- Copyright Starts -->
+      <div class="leftbottom">
+        <span>&copy; 2023 </span>
+        <a href="https://www.linkedin.com/in/marcellopascale/"> My LinkedIn </a>
+      </div>
+      <!-- Copyright Ends -->
+    </div>
+    <!-- Home Section Ends -->
+    <!-- Portfolio Section Starts -->
+    <div class="main-section portfolio-grid">
+      <!-- Back Home Starts -->
+      <div class="back-home" id="back-home">
+        <div class="squares">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <!-- Back Home Ends -->
+      <!-- Portfolio Grid Starts -->
+      <div class="grid-container">
+        <!-- Portfolio Heading Starts -->
+        <div class="heading">
+          <h2>Portfolio</h2>
+          <p>My story in products, advertising and coding challenges</p>
+        </div>
+        <!-- Portfolio Heading Ends -->
+        <!-- Portfolio Items Starts -->
+        <ul class="grid">
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/LT_icon_portfolio-min.jpg" alt="" />
+            <div class="title">
+              <span>Lucid Totem</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/Jugger_Logo-min.JPG" alt="" />
+            <div class="title">
+              <span>Jugger.gg</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/vapearena_logo-min.JPG" alt="" />
+            <div class="title">
+              <span>VapeArena</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/memory-min.jpg" alt="" />
+            <div class="title">
+              <span>Memory Game</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/tinder-min.jpg" alt="" />
+            <div class="title">
+              <span>Tinder Bot</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/alien_logo-min.jpg" alt="" />
+            <div class="title">
+              <span>Guess the Alien</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/marchGPT-min.jpg" alt="" />
+            <div class="title">
+              <span>MarchGPT</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+          <!-- Portfolio Single Item Starts -->
+          <li class="item" onclick="openItem(this)">
+            <img src="img/projects/PI&C_logo-min.jpg" alt="" />
+            <div class="title">
+              <span>PI&C - Ad Agency</span>
+            </div>
+          </li>
+          <!-- Portfolio Single Item Ends -->
+        </ul>
+        <!-- Portfolio Items Ends -->
+      </div>
+      <!-- Portfolio Grid Ends -->
+      <!-- Freelance Availability Starts -->
+      <div class="freelance">
+        <span>Available for <span>freelance</span></span>
+      </div>
+      <!-- Freelance Availability Ends -->
+    </div>
+    <!-- Portfolio Section Ends -->
+    <!-- Portfolio Items Details Starts -->
+    <div class="portfolio-items">
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-1">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts LCID TOTEM -->
+          <div class="details">
+            <div class="heading">
+              <img alt="" src="img/projects/lucidtotemscreenshot-min.jpg"/>
+
+              <div>
+                <div>
+                  <h2>Lucid Totem</h2>
+                  <span>Smartwatch App</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Founder & Product Lead </span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Figma, Notion, Product Management</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >Lucid Totem is an app designed to help smartwatch users
                     achieve lucid dreams by utilizing a scientific approach
                     through physiological indicators and algorithms. First
                     started on Fitbit, it is now moving to Apple Watch.
                   </span>
-</li>
-</ul>
-<a class="btn-secondary" href="http://www.Lucidtotem.com" target="_blank">
-<div>
-<span> Go to site </span>
-<span> Lucidtotem.com </span>
-</div>
-</a>
-<a class="btn-secondary" href="https://www.youtube.com/watch?v=_-sweUsnU9k" target="_blank">
-<div>
-<span> Go to YouTube </span>
-<span> Watch a Video Demo </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-2">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts JGGER -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<iframe allowfullscreen="true" frameborder="0" height="550" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vT0cAnEw6eVgMXjhXd6p-bDP6oC9dUfySmKDcyoUSwGKGNSljHAvLk8qAQ7ihz00gSa-Efg_TjtP_qp/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="850"></iframe>
-<div>
-<div>
-<h2>Jugger.gg</h2>
-<span>eSports platform</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Co-Founder &amp; Product Lead </span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Notion, Customer Discovery, Idea validation, MVP</span>
-</li>
-<li>
-<span>Description :</span>
-<span>Jugger.gg aimed to provide an innovative platform to help
+                </li>
+              </ul>
+              <a
+                href="http://www.Lucidtotem.com"
+                target="_blank"
+                class="btn-secondary"
+              >
+                <div>
+                  <span> Go to site </span>
+                  <span> Lucidtotem.com </span>
+                </div>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=_-sweUsnU9k"
+                target="_blank"
+                class="btn-secondary"
+              >
+                <div>
+                  <span> Go to YouTube </span>
+                  <span> Watch a Video Demo </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-2">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts JGGER -->
+          <div class="details">
+            <div class="heading">
+              <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vT0cAnEw6eVgMXjhXd6p-bDP6oC9dUfySmKDcyoUSwGKGNSljHAvLk8qAQ7ihz00gSa-Efg_TjtP_qp/embed?start=false&loop=false&delayms=3000"
+                frameborder="0"
+                width="850"
+                height="550"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+              ></iframe>
+              <div>
+                <div>
+                  <h2>Jugger.gg</h2>
+                  <span>eSports platform</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Co-Founder & Product Lead </span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Notion, Customer Discovery, Idea validation, MVP</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >Jugger.gg aimed to provide an innovative platform to help
                     esports teams monetize their fan base directly, lessening
                     their dependence on sponsorships. As the Co-Founder
                     responsible for Product and Marketing I took charge of
                     customer interviews, product roadmap and prototyping.
                   </span>
-</li>
-</ul>
-<!--               <a href="#" target="_blank" class="btn-secondary">
+                </li>
+              </ul>
+              <!--               <a href="#" target="_blank" class="btn-secondary">
                 <div>
                   <span> Preview </span>
                   <span> Preview </span>
                 </div>
               </a>
  -->
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-3">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts Vapearena -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<iframe allowfullscreen="" height="550" src="https://docs.google.com/presentation/d/e/2PACX-1vQbmOfjU4Fww5gEpaHn22-hfAL0uOe_vaj2HZ7Ao6yC44w6cAGvS01m1Agyzj3fX4wWJnZDSy0pEb1F/embed?start=false&amp;loop=false&amp;delayms=3000" style="border: 1px solid rgba(0, 0, 0, 0.1)" width="850"></iframe>
-<div>
-<div>
-<h2>VapeArena</h2>
-<span>Web App</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Founder &amp; Product Lead </span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Figma, Notion, Trello</span>
-</li>
-<li>
-<span>Description :</span>
-<span>Vapearena sought to guide users in selecting the ideal
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-3">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts Vapearena -->
+
+          <div class="details">
+            <div class="heading">
+              <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vQbmOfjU4Fww5gEpaHn22-hfAL0uOe_vaj2HZ7Ao6yC44w6cAGvS01m1Agyzj3fX4wWJnZDSy0pEb1F/embed?start=false&loop=false&delayms=3000"
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                width="850"
+                height="550"
+                allowfullscreen
+              ></iframe>
+              <div>
+                <div>
+                  <h2>VapeArena</h2>
+                  <span>Web App</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Founder & Product Lead </span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Figma, Notion, Trello</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >Vapearena sought to guide users in selecting the ideal
                     herbal vaporizers for their needs through a user-friendly
                     digital platform. As the only Founder I led market research,
                     website and tool design, and content creation, thereby
@@ -479,12 +573,12 @@
                     were far more interested in viewing 3-4 vaporizer reviews
                     daily, than in a sterile tool to optimize for their needs.
                   </span>
-</li>
-<!--              <li>
+                </li>
+   <!--              <li>
                   <span>Lesson learned :</span>
                   <span>Don't work in a bubble. Launch fast and iterate.</span>
                 </li> -->
-</ul>
+              </ul>
 <!--               <a href="#" target="_blank" class="btn-secondary">
                 <div>
                   <span> github repository </span>
@@ -497,649 +591,890 @@
                   <span> Go fll screen </span>
                 </div>
               </a>
- --> </div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-4">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<img alt="" src="img/projects/memorygamess-min.jpg"/>
-<div>
-<div>
-<h2>Memory Game</h2>
-<span>Web App</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Developer</span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Javascript, CSS, HTML, ChatGPT</span>
-</li>
-<li>
-<span>Description :</span>
-<span>As programming practice I followed a tutorial for a basic
+ -->            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-4">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts -->
+
+          <div class="details">
+            <div class="heading">
+              <img alt="" src="img/projects/memorygamess-min.jpg"/>
+              <div>
+                <div>
+                  <h2>Memory Game</h2>
+                  <span>Web App</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Developer</span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Javascript, CSS, HTML, ChatGPT</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >As programming practice I followed a tutorial for a basic
                     memory game and improved upon it adding 3 difficulty
-                    levels,  different decks, animations and score penalties. I still intend to improve it, adding a databse for high scores and theme decks like a pirate deck or a egypt deck with each card very similar to the others.</span>
-</li>
-</ul>
-<a class="btn-secondary" href="https://github.com/MrMrch/memory" target="_blank">
-<div>
-<span> GitHub repository </span>
-<span> Go to code </span>
-</div>
-</a>
-<a class="btn-secondary" href="https://mrmrch.github.io/memory/" target="_blank">
-<div>
-<span> Play the Game </span>
-<span> Let's play! </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-5">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/embed/G8X7dNXI-Kc?si=t7dk9FKHwgZIh5iy" title="YouTube video player" width="850"></iframe>
-<div>
-<div>
-<h2>Tinder Bot</h2>
-<span>Automation script</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Developer </span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Python, Selenium, ChromeDriver</span>
-</li>
-<li>
-<span>Description :</span>
-<span>Given the overwhelming majority of Tinder users on the platform only to advertise their Instagram profile, and the many "Passport" users, who appear in your location even when 8000 km away, I built a basic bot to atomatically swipe left on those profiles who don't match strict parameters.
+                    levels,  different decks, animations and score penalties. I still intend to improve it, adding a databse for high scores and theme decks like a pirate deck or a egypt deck with each card very similar to the others.</span
+                  >
+                </li>
+              </ul>
+              <a
+                href="https://github.com/MrMrch/memory"
+                target="_blank"
+                class="btn-secondary"
+              >
+                <div>
+                  <span> GitHub repository </span>
+                  <span> Go to code </span>
+                </div>
+              </a>
+              <a
+                href="https://mrmrch.github.io/memory/"
+                target="_blank"
+                class="btn-secondary"
+              >
+                <div>
+                  <span> Play the Game </span>
+                  <span> Go full screen </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-5">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts -->
+          <div class="details">
+            <div class="heading">
+              <iframe width="850" height="550" 
+              src="https://www.youtube.com/embed/G8X7dNXI-Kc?si=t7dk9FKHwgZIh5iy" 
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+              <div>
+                <div>
+                  <h2>Tinder Bot</h2>
+                  <span>Automation script</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Developer </span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Python, Selenium, ChromeDriver</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >Given the overwhelming majority of Tinder users on the platform only to advertise their Instagram profile, and the many "Passport" users, who appear in your location even when 8000 km away, I built a basic bot to atomatically swipe left on those profiles who don't match strict parameters.
                     While I am not on the app anymore, it would be interesting to train a computer vision model to add a layer of personal preferences to the decision algorythm.
                   </span>
-</li>
-</ul>
-<a class="btn-secondary" href="https://github.com/MrMrch/tinderbot" target="_blank">
-<div>
-<span> GitHub repository </span>
-<span> Go to code </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-6">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/embed/LJixtqfZz4g?si=Iz3jFbVZfcmoVsZG" title="YouTube video player" width="850"></iframe>
-<div>
-<div>
-<h2>Guess the Alien</h2>
-<span>Web App</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Developer</span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Python, CSS, HTML, Python, JavaScript, Flask </span>
-</li>
-<li>
-<span>Description :</span>
-<span>As final project for Harvard's CS50x Introduction to Computer Science, I created a "Guess Who?" type of game, where the computer always guesses and keeps track of your answer. If you try to trick them changing your selected character last minute, it will catch you!
+                </li>
+              </ul>
+              <a href="https://github.com/MrMrch/tinderbot" target="_blank" class="btn-secondary">
+                <div>
+                  <span> GitHub repository </span>
+                  <span> Go to code </span>
+                </div>
+              </a>
+              
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-6">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts -->
+          <div class="details">
+            <div class="heading">
+              
+              <iframe width="850" height="550" src="https://www.youtube.com/embed/LJixtqfZz4g?si=Iz3jFbVZfcmoVsZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <div>
+                <div>
+                  <h2>Guess the Alien</h2>
+                  <span>Web App</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Developer</span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Python, CSS, HTML, Python, JavaScript, Flask </span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >As final project for Harvard's CS50x Introduction to Computer Science, I created a "Guess Who?" type of game, where the computer always guesses and keeps track of your answer. If you try to trick them changing your selected character last minute, it will catch you!
                     I am considering expanding the game and restyling the aliens using generative AI, and adding a 2 player mode
                     It uses practice I followed a tutorial for a basic
                     memory game and improved upon it with different difficulty
                     levels, different card backs, animations and score
-                    taking.</span>
-</li>
-</ul>
-<a class="btn-secondary" href="https://github.com/MrMrch/Guess_Alien" target="_blank">
-<div>
-<span> GitHub repository </span>
-<span> Go to code </span>
-</div>
-</a>
-<a class="btn-secondary" href="\img\projects\newaliens-min.jpg" target="_blank">
-<div>
-<span> Check the pictures </span>
-<span> New Aliens design </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-7">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<flowise-fullchatbot></flowise-fullchatbot>
-<script type="module">
+                    taking.</span
+                  >
+                </li>
+              </ul>
+              <a href="https://github.com/MrMrch/Guess_Alien" target="_blank" class="btn-secondary">
+                <div>
+                  <span> GitHub repository </span>
+                  <span> Go to code </span>
+                </div>
+              </a>
+              <a href="\img\projects\newaliens-min.jpg" target="_blank" class="btn-secondary">
+                <div>
+                  <span> Check the pictures </span>
+                  <span> New Aliens design </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-7">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts -->
+          <div class="details">
+            <div class="heading">
+              
+              <flowise-fullchatbot></flowise-fullchatbot>
+              <script type="module">
                   import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
                   Chatbot.initFull({
                       chatflowid: "51743f50-6629-47b7-967d-e238d0048c68",
                       apiHost: "https://marchgpt.onrender.com",
                   })
               </script>
-<!--
+            
+              
+              <!--
               <iframe width="850" height="550" src="https://flowiseai-railway-production-3b8d.up.railway.app/chatbot/51743f50-6629-47b7-967d-e238d0048c68" title="Chatbot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media" allowfullscreen></iframe>
 -->
-<div>
-<div>
-<h2>MarchGPT</h2>
-<span>AI Chatbot</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>No/Code Dev </span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Flowise, Pinecode, GitHub, Railway</span>
-</li>
-<li>
-<span>Description :</span>
-<span>Wondering why you should hire me? Ask my digital twin! I created this chatbot and trained him with anything you may want to know
+              
+              <div>
+                <div>
+                  <h2>MarchGPT</h2>
+                  <span>AI Chatbot</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+             <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>No/Code Dev </span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Flowise, Pinecode, GitHub, Railway</span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >Wondering why you should hire me? Ask my digital twin! I created this chatbot and trained him with anything you may want to know
                     about my background, experiences and philosophies. To do this I setup a chatbot in Flowise, using openAI API and trained it with my CV and 
                     other relevant documentation.
                   </span>
-</li>
-</ul>
-<a class="btn-secondary" href="mailto:marcello.pascale@gmail.com" target="_blank">
-<div>
-<span> email me at marcello.pascale@gmail.com </span>
-<span> Talk to the real me! </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-<!-- Single Project Details Starts -->
-<div class="single-project-item" id="project-8">
-<!-- Back Portfolio Starts -->
-<div class="back-to-portfolio" onclick="backToPorfolio()">
-<div class="squares">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-</div>
-<!-- Back Portfolio Ends -->
-<div>
-<!-- Portfolio Single Item Details Starts -->
-<div class="details" data-lazyload="true">
-<div class="heading">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/embed/lDtjBrDFSVE?si=WLmIxDZ_ZrxUcTw8" title="YouTube video player" width="850"></iframe>
-<div>
-<div>
-<h2>People Ideas &amp; Culture</h2>
-<span>Advertising Agency</span>
-</div>
-</div>
-</div>
-<div class="content">
-<ul>
-<li>
-<span>Role :</span>
-<span>Account Manager &amp; Strategist</span>
-</li>
-<li>
-<span>Skills :</span>
-<span>Branding, Project Management, Strategy, </span>
-</li>
-<li>
-<span>Description :</span>
-<span>During my time at PI&amp;C, navigating through the dynamic worlds of 
+                </li>
+              </ul>
+              <a href="mailto:marcello.pascale@gmail.com" target="_blank" class="btn-secondary">
+                <div>
+                  <span> email me at marcello.pascale@gmail.com </span>
+                  <span> Talk to the real me! </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+      <!-- Single Project Details Starts -->
+      <div class="single-project-item" id="project-8">
+        <!-- Back Portfolio Starts -->
+        <div class="back-to-portfolio" onclick="backToPorfolio()">
+          <div class="squares">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- Back Portfolio Ends -->
+        <div>
+          <!-- Portfolio Single Item Details Starts -->
+          <div class="details">
+            <div class="heading">
+              <iframe width="850" height="550" src="https://www.youtube.com/embed/lDtjBrDFSVE?si=WLmIxDZ_ZrxUcTw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div>
+                <div>
+                  <h2>People Ideas & Culture</h2>
+                  <span>Advertising Agency</span>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <span>Role :</span>
+                  <span>Account Manager & Strategist</span>
+                </li>
+                <li>
+                  <span>Skills :</span>
+                  <span>Branding, Project Management, Strategy, </span>
+                </li>
+                <li>
+                  <span>Description :</span>
+                  <span
+                    >During my time at PI&C, navigating through the dynamic worlds of 
                     creativity and strategy was my daily norm. I worked closely with 
                     international clients, ensuring our campaigns were not only
                     imaginative but also anchored by a solid, KPI-driven approach.
  
-                    <br/>Let's look at an Example: Pasta Garofalo.
-                    <br/>The "Not Your Average" campaign for Pasta Garofalo, with soon-to-be Italian superstar, Beatrice Venezi and other outstanding personalities, pulled in 6.5 million views and 3.5 million completed views in a short span of time. Diving deep into consumer insights and market data, I helped shape a strategy that didn’t just chase numbers but also sought meaningful engagement with our target audience and conveyed the message of a brand that stands out when it comes to pasta making. From brainstorming creative concepts to steering the media planning ship, my role was to ensure all the moving parts of our campaigns were synchronized and singing the same brand tune. This experience underscored the importance of blending analytical and creative thinking to 
-                    not only conjure up compelling campaigns but also to keep them tethered to tangible outcomes and brand goals.</span>
-</li>
-</ul>
-<a class="btn-secondary" href="#" target="_blank">
-<div>
-<span> Preview </span>
-<span> Preview </span>
-</div>
-</a>
-</div>
-</div>
-<!-- Portfolio Single Item Details Ends -->
-<!-- Portfolio Navigation Starts -->
-<div class="arrows">
-<div>
-<div class="arrow up top-project" onclick="TopProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
-</svg>
-</div>
-</div>
-</div>
-<div>
-<div class="arrow down bottom-project" onclick="BottomProject()">
-<div class="arrow-inner">
-<svg class="main-arrow" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-<svg class="hover" height="40" version="1.1" width="40" xmlns="http://www.w3.org/2000/svg">
-<path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<!-- Portfolio Navigation Ends -->
-</div>
-</div>
-<!-- Single Project Details Ends -->
-</div>
-<!-- Portfolio Items Details Ends -->
-<!-- About Section Starts -->
-<div class="about" id="about">
-<div class="overlay" id="overlay"></div>
-<div class="content" id="content">
-<!-- Close About Section Starts -->
-<div class="close" id="close">
-<svg fill-rule="nonzero" height="30px" viewbox="0,0,256,256" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g fill-rule="nonzero" font-family="none" font-size="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal">
-<g transform="scale(8.53333,8.53333)">
-<path d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"></path>
-</g>
-</g>
-</svg>
-</div>
-<!-- Close About Section Ends -->
-<!-- About Content Starts -->
-<div class="content-container" id="contentcontainer">
-<!-- Photo Starts -->
-<div class="img-container">
-<picture>
-<source media="(min-width:990px)" srcset="img/mypicture.jpg"/>
-<img alt="mobile picture" src="img/mypicture-160x160.jpg"/>
-</picture>
-</div>
-<!-- Photo Ends -->
-<!-- Personal Informations Starts -->
-<div>
-<div class="infos-about">
-<h3>Steven Smith</h3>
-<div class="infos-about-inner">
-<table class="">
-<tr>
-<td>Job</td>
-<td>Product and Marketing</td>
-</tr>
-<tr>
-<td>Age</td>
-<td>27 years</td>
-</tr>
-<tr>
-<td>Nationality</td>
-<td>Italian</td>
-</tr>
-</table>
-<table>
-<tr>
-<td>Freelance</td>
-<td>Available</td>
-</tr>
-<tr>
-<td>Langages</td>
-<td>English, Italian, Spanish</td>
-</tr>
-<tr>
-<td>Resume</td>
-<td><a class="accent" href="#">Download</a></td>
-</tr>
-</table>
-</div>
-<div class="facts">
-<div class="box-stats">
-<h4>13</h4>
-<p>years <span>experience</span></p>
-</div>
-<div class="box-stats">
-<h4>45</h4>
-<p>completed <span>projects</span></p>
-</div>
-<div class="box-stats">
-<h4>39</h4>
-<p>Happy <span>customers</span></p>
-</div>
-</div>
-</div>
-</div>
-<!-- Personal Informations Ends -->
-</div>
-<!-- About Content Ends -->
-</div>
-</div>
-<!-- About Section Ends -->
-<!-- Animated Layers Starts -->
-<div class="layers active-layer opacity-0">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-<div class="layers not-active-layer">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-<!-- Animated Layers Ends -->
-<!-- Template JS File -->
-<script src="js/custom_no_sound.js"></script>
-<script src="slider.js"></script>
-<script type="module">
+                    <br>Let's look at an Example: Pasta Garofalo.
+                    <br>The "Not Your Average" campaign for Pasta Garofalo, with soon-to-be Italian superstar, Beatrice Venezi and other outstanding personalities, pulled in 6.5 million views and 3.5 million completed views in a short span of time. Diving deep into consumer insights and market data, I helped shape a strategy that didn’t just chase numbers but also sought meaningful engagement with our target audience and conveyed the message of a brand that stands out when it comes to pasta making. From brainstorming creative concepts to steering the media planning ship, my role was to ensure all the moving parts of our campaigns were synchronized and singing the same brand tune. This experience underscored the importance of blending analytical and creative thinking to 
+                    not only conjure up compelling campaigns but also to keep them tethered to tangible outcomes and brand goals.</span
+                  >
+                </li>
+              </ul>
+              <a href="#" target="_blank" class="btn-secondary">
+                <div>
+                  <span> Preview </span>
+                  <span> Preview </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Single Item Details Ends -->
+          <!-- Portfolio Navigation Starts -->
+          <div class="arrows">
+            <div>
+              <div class="arrow up top-project" onclick="TopProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="arrow down bottom-project" onclick="BottomProject()">
+                <div class="arrow-inner">
+                  <svg
+                    class="main-arrow"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="hover"
+                    width="40"
+                    height="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                  >
+                    <path
+                      d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Navigation Ends -->
+        </div>
+      </div>
+      <!-- Single Project Details Ends -->
+    </div>
+    <!-- Portfolio Items Details Ends -->
+    <!-- About Section Starts -->
+    <div id="about" class="about">
+      <div class="overlay" id="overlay"></div>
+      <div class="content" id="content">
+        <!-- Close About Section Starts -->
+        <div class="close" id="close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0,0,256,256"
+            width="30px"
+            height="30px"
+            fill-rule="nonzero"
+          >
+            <g
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-size="none"
+              style="mix-blend-mode: normal"
+            >
+              <g transform="scale(8.53333,8.53333)">
+                <path
+                  d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <!-- Close About Section Ends -->
+        <!-- About Content Starts -->
+        <div class="content-container" id="contentcontainer">
+          <!-- Photo Starts -->
+          <div class="img-container">
+            <picture>
+              <source media="(min-width:990px)" srcset="img/mypicture.jpg" />
+              <img src="img/mypicture-160x160.jpg" alt="mobile picture" />
+            </picture>
+          </div>
+          <!-- Photo Ends -->
+          <!-- Personal Informations Starts -->
+          <div>
+            <div class="infos-about">
+              <h3>Steven Smith</h3>
+              <div class="infos-about-inner">
+                <table class="">
+                  <tr>
+                    <td>Job</td>
+                    <td>Product and Marketing</td>
+                  </tr>
+                  <tr>
+                    <td>Age</td>
+                    <td>27 years</td>
+                  </tr>
+                  <tr>
+                    <td>Nationality</td>
+                    <td>Italian</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Freelance</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr>
+                    <td>Langages</td>
+                    <td>English, Italian, Spanish</td>
+                  </tr>
+                  <tr>
+                    <td>Resume</td>
+                    <td><a class="accent" href="#">Download</a></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="facts">
+                <div class="box-stats">
+                  <h4>13</h4>
+                  <p>years <span>experience</span></p>
+                </div>
+                <div class="box-stats">
+                  <h4>45</h4>
+                  <p>completed <span>projects</span></p>
+                </div>
+                <div class="box-stats">
+                  <h4>39</h4>
+                  <p>Happy <span>customers</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Personal Informations Ends -->
+        </div>
+        <!-- About Content Ends -->
+      </div>
+    </div>
+    <!-- About Section Ends -->
+    <!-- Animated Layers Starts -->
+    <div class="layers active-layer opacity-0">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="layers not-active-layer">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Animated Layers Ends -->
+    <!-- Template JS File -->
+    <script src="js/custom_no_sound.js"></script>
+<!--     <script src="slider.js"></script>
+        <script type="module">
       import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
       Chatbot.init({
           chatflowid: "51743f50-6629-47b7-967d-e238d0048c68",
@@ -1154,7 +1489,7 @@
                   bottom: 20,
                   size: "medium",
                   iconColor: "white",
-                  customIconSrc: "https://raw.githubusercontent.com/MrMrch/portfolio/main/img/projects/marchGPT-min.jpg",
+                  customIconSrc: "https://raw.githubusercontent.com/MrMrch/portfolio/main/img/projects/marchGPT.JPG",
               },
               chatWindow: {
                   welcomeMessage: "Hello! This is custom welcome message",
@@ -1167,7 +1502,7 @@
                       backgroundColor: "#f7f8ff",
                       textColor: "#303235",
                       showAvatar: true,
-                      avatarSrc: "https://raw.githubusercontent.com/MrMrch/portfolio/main/img/projects/marchGPT-min.jpg",
+                      avatarSrc: "https://raw.githubusercontent.com/MrMrch/portfolio/main/img/projects/marchGPT.JPG",
                   },
                   userMessage: {
                       backgroundColor: "#3B81F6",
@@ -1183,7 +1518,8 @@
                   }
               }
           }
-      })
+      }) -->
   </script>
-</body>
+
+  </body>
 </html>
