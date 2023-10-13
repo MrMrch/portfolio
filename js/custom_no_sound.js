@@ -348,3 +348,18 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(section);
   });
 });
+
+
+
+// Initialize Navigo Router
+var router = new Navigo('/');
+
+
+// Define Route for LucidTotem
+router
+  .on('lucidtotem', function () {
+    // Assume there is a div with id 'lucid-totem-content' and another div with id 'other-content'
+    document.getElementById("lucid-totem-content").style.display = "block";
+    document.getElementById("other-content").style.display = "none";
+  })
+  .resolve();
